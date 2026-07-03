@@ -81,29 +81,34 @@ Correlação das estatísticas com o número de vitórias:
 
 ```
 NBA-Analytics
-│
-├── data
-│   ├── nba_team_stats_00_to_23.csv
-│   └── nba_analytics_final.csv
-│
-├── scripts
-│   ├── nba.py
-│   └── modelo_vitorias.py
-│
-├── dashboard
-│   └── NBA_Analytics.pbix
-│
-├── images
-│   ├── dashboard_pagina1.png
-│   ├── dashboard_pagina2.png
-│   └── importancia_xgboost.png
-│
-├── requirements.txt
-│
-└── README.md
 
+── data
 
-# 📊 Dataset
+nba_team_stats_00_to_23.csv
+nba_analytics_final.csv
+prediçoes.csv
+── scripts
+
+nba.py
+modelo_vitorias.py
+
+── dashboard
+   NBA dados.pbix
+
+── images
+
+Correlação entre bolas de 3 e vitoria.png
+Estatisticas que mais explicam vitoria nba.png
+Importancia de variaveis.png
+Media Cestas de 3.png
+Media Rebotes e assistencias.png
+Rebotes e assistencia correlaçao por vitoria.png
+
+── requirements.txt
+
+── README.md
+
+#  Dataset
 
 NBA Team Statistics (2000–2024)
 
